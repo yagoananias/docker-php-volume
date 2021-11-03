@@ -6,5 +6,5 @@ COPY . .
 
 EXPOSE 80
 
-RUN chwon -R www-data:www-data /var/www
+RUN chown -R www-data:www-data /var/www
 
